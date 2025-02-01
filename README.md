@@ -72,13 +72,13 @@ Acceptable link parameters are:
 
 ```toml
 [params.author]
-links = {
+links = [
    # Simple link
    { github = "https://github.com/jpanther/lynx" }
 
    # Custom link
    { github = { href = "https://github.com/jpanther/lynx", text = "GitHub Project" } }
-}
+]
 ```
 
 Additional page content can be provided by creating a Markdown file at `content/_index.md`. The contents of this file will be displayed between the title and links. Check out the exampleSite to see this in practice.
